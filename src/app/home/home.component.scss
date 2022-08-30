@@ -1,10 +1,25 @@
+.card-container {
+  justify-content: center;
+  margin: 0 auto;
+}
+.card {
+  margin: 0 auto;
+}
+.card.card-component,
+.card.card-databiding-value-input {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px pink;
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
 
-.test{
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px pink;
-    width: 400px;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 8px;
+svg#clouds {
+  position: fixed;
+  bottom: -160px;
+  left: -230px;
+  z-index: -10;
+  width: 1920px;
 }

@@ -1,5 +1,17 @@
-.main{
-    text-align: center;
-    //display: inline-block;
-    align-items: center;
+.main {
+  text-align: center;
+  //display: inline-block;
+  align-items: center;
+}
+.saltlux {
+  background: -webkit-linear-gradient(155deg, darkblue, lightblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+.hello {
+  background: -webkit-linear-gradient(90deg, lightblue, darkblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
 }

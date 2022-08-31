@@ -6,8 +6,8 @@
 
   <div class="card card-databiding-value-input">
     <h2>Data Binding</h2>
-    <!-- ------------------------------------ -->
-    <h3 class="border border">Value, Input</h3>
+
+    <h2 class="border border-value-input">Value, Input</h2>
     <input type="text" [(ngModel)]="age" />
     <!-- <br /><br />
     <input value="{{ name }}" /> -->
@@ -15,16 +15,20 @@
     <input type="text" [(ngModel)]="name" />
     <br /><br />
     <input [value]="name" title="Đây là {{ name }}" />
-    <!-- ------------------------------------ -->
-    <h2 class="border border">ngIf</h2>
+
+    <h2 class="border border-ngIf">ngIf</h2>
     <h2 *ngIf="age > 40">Bạn đã già rồi !!</h2>
     <h2 *ngIf="age <= 40">Bạn vẫn còn trẻ @@</h2>
-    <!-- ------------------------------------ -->
+
     <button class="buttonRS" (click)="resetName()">Reset tên</button>
-    <!-- ------------------------------------ -->
+
+    <!-- ngIf -->
     <div *ngIf="age <= 40; then tre; else gia"></div>
     <ng-template #gia><h2>Bạn đã già rồi !!</h2></ng-template>
     <ng-template #tre><h2>Bạn vẫn còn trẻ @@</h2></ng-template>
+
+    <!-- ngFor -->
+    <h2 class="border border-ngfor">ngFor</h2>
   </div>
 
   <!-- background -->

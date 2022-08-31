@@ -9,7 +9,7 @@
 .card.card-databiding-value-input {
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px pink;
+  box-shadow: 5px 10px 5px darkblue;
   width: 400px;
   text-align: center;
   border-radius: 8px;
@@ -33,6 +33,18 @@ svg#clouds {
   text-align: center;
   border-radius: 8px;
   margin: 10px auto 10px auto;
+  box-shadow: 10px 5px 20px rgb(156, 156, 156);
+}
+.border.border-ngfor,
+.border.border-value-input {
+  color: rgb(16, 16, 29);
+  text-shadow: 1px 3px pink;
+  background: -webkit-linear-gradient(90deg, rgb(254, 235, 239), white);
+}
+.border.border-ngIf {
+  color: rgb(16, 16, 29);
+  text-shadow: 1px 3px pink;
+  background: -webkit-linear-gradient(90deg, rgb(254, 235, 239), white);
 }
 .buttonRS {
   border-radius: 16px;

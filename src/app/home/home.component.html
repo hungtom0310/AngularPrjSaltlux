@@ -29,6 +29,22 @@
 
     <!-- ngFor -->
     <h2 class="border border-ngfor">ngFor</h2>
+    <h2>Trái cây</h2>
+    <!-- <div>
+      <li>Táo</li>
+      <li>Nho</li>
+      <li>Cam</li>
+    </div> -->
+    <div *ngFor="let trai of traiCay; let i = index">
+      <ul>
+        {{
+          i + 1
+        }}.
+        {{
+          trai
+        }}
+      </ul>
+    </div>
   </div>
 
   <!-- background -->

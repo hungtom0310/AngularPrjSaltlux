@@ -10,7 +10,7 @@
   border: 1px solid;
   padding: 10px;
   box-shadow: 0px 0px 12px #4c5bd4;
-  width: 400px;
+  width: 500px;
   text-align: center;
   border-radius: 8px;
   margin-bottom: 30px;
@@ -46,4 +46,16 @@ svg#clouds {
 // }
 .buttonRS {
   border-radius: 16px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.table-ngFor {
+  width: 100%;
+}
+.so-am {
+  color: red;
 }

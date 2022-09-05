@@ -8,7 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   public name = 'Hưng';
   public age = 40;
-  public traiCay = ['Táo', 'Nho', 'Cam'];
+  public traiCay = ['Táo', 'Nho', 'Cam', 'Quýt', 'Ổi'];
+  public traiCay2 = [
+    { ten: 'Táo', gia: 12000, sale: true },
+    { ten: 'Nho', gia: 13000, sale: false },
+    { ten: 'Cam', gia: 15000, sale: true },
+    { ten: 'Quýt', gia: -1000, sale: true },
+    { ten: 'Ổi', gia: 23000, sale: false },
+  ];
 
   constructor() {}
 

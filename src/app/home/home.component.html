@@ -45,6 +45,32 @@
         }}
       </ul>
     </div>
+    <!-- áp dụng *ngFor (phần tử là Object). Kết hợp chút HTML/Css, chút *ngIf, [ngClass] -->
+    <h2 class="border border-ngfor">ngFor áp dụng</h2>
+    <table class="table-ngFor">
+      <tr>
+        <th>Stt</th>
+        <th>Tên</th>
+        <th>Giá</th>
+        <th>Sale</th>
+        <!-- <th>Age</th> -->
+      </tr>
+      <!-- <tr *ngFor="let trai of traiCay; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ trai }}</td>
+        <td>0</td>
+      </tr> -->
+      <tr *ngFor="let trai of traiCay2; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ trai.ten }}</td>
+        <td>
+          <span [ngClass]="{ 'so-am': trai.gia < 0 }">{{ trai.gia }}</span>
+        </td>
+        <td>
+          <span *ngIf="trai.sale">Có Sale</span>
+        </td>
+      </tr>
+    </table>
   </div>
 
   <!-- background -->

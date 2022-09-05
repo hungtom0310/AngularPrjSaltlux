@@ -12,7 +12,9 @@ export class HomeComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  public ngOnInit(): void {
+    console.log('trai cay: ', this.traiCay);
+  }
 
   public resetName(): void {
     console.log('resetName');

@@ -2,9 +2,10 @@
   text-align: center;
   //display: inline-block;
   align-items: center;
+  padding-top: 36px;
 }
 .saltlux {
-  background: -webkit-linear-gradient(90deg, #4c5bd4, #474747);
+  background: -webkit-linear-gradient(90deg, #4c5bd4, #ff0900);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -21,7 +22,7 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background: -webkit-linear-gradient(180deg, #ff0900, #4c5bd4);
+  background: -webkit-linear-gradient(180deg, #cccc, #4c5bd4);
   border-radius: 10px 10px 5px 5px;
   color: white;
   font-weight: 600;

@@ -22,10 +22,11 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background: -webkit-linear-gradient(180deg, #cccc, #4c5bd4);
+  background: -webkit-linear-gradient(180deg, #e969ff, #4c5bd4);
   border-radius: 10px 10px 5px 5px;
   color: white;
   font-weight: 600;
+  position: sticky;
 }
 
 .toolbar img {
@@ -40,6 +41,14 @@
 .toolbar #youtube-logo {
   height: 40px;
   margin: 0 16px;
+}
+.bottom {
+  text-align: right;
+  padding-right: 20px;
+  box-shadow: #ff0900;
+}
+.bottom:hover {
+  transform: translate(-100%, 0) scale(2.25);
 }
 
 .toolbar #home-logo:hover,

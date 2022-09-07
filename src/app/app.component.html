@@ -4,21 +4,21 @@
     alt="Angular Logo"
     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
   />
-  <span>Welcome</span>
-  <div class="spacer"></div>
-  <a href="">
-    <svg id="home-logo" height="2" data-name="Logo" viewBox="-100 -100 700 700">
+  <span>SALTLUX</span>
+  <div class="toolbar spacer"></div>
+  <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">
+    <svg id="home-logo" height="2" data-name="Logo" viewBox="-150 -100 500 500">
       <path
-        d="M482.453,220.775l-115.5-111.2v-88.5c0-11.4-9.4-20.8-20.8-20.8s-20.8,9.4-20.8,20.8v48.5l-66.6-64.1
-        c-7.3-7.3-19.8-7.3-28.1,0l-223.6,215.3c-8.3,8.3-9.4,20.8-1,29.1c8.4,8.3,20.8,9.4,29.1,1l3.1-3v220.4c0,11.4,9.4,20.8,20.8,20.8
-        h372.4c11.4,0,19.8-9.4,20.8-19.8v-219.3l2.1,2c15.2,10.5,26,3.1,29.1-2.1C490.753,241.575,490.753,228.075,482.453,220.775z
-         M281.653,448.575h-72.8v-111.3h72.8V448.575z M410.653,448.575h-88.4v-132.1c0-11.4-9.4-20.8-20.8-20.8h-113.4
-        c-11.4,0-20.8,9.4-20.8,20.8v132.1h-87.4v-203.9h330.8V448.575L410.653,448.575z M83.853,204.175l161.4-155l159.8,155H83.853z"
+        d="M324.442,129.811l-41.321-33.677V42.275c0-6.065-4.935-11-11-11h-26c-6.065,0-11,4.935-11,11v14.737l-55.213-44.999
+        c-3.994-3.254-9.258-5.047-14.822-5.047c-5.542,0-10.781,1.782-14.753,5.019L5.8,129.81c-6.567,5.351-6.173,10.012-5.354,12.314
+        c0.817,2.297,3.448,6.151,11.884,6.151h19.791v154.947c0,11.058,8.972,20.053,20,20.053h62.5c10.935,0,19.5-8.809,19.5-20.053
+        v-63.541c0-5.446,5.005-10.405,10.5-10.405h42c5.238,0,9.5,4.668,9.5,10.405v63.541c0,10.87,9.388,20.053,20.5,20.053h61.5
+        c11.028,0,20-8.996,20-20.053V148.275h19.791c8.436,0,11.066-3.854,11.884-6.151C330.615,139.822,331.009,135.161,324.442,129.811z"
         fill="#fff"
       />
     </svg>
   </a>
-  <a href="">
+  <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">
     <svg id="home-logo" height="2" data-name="Logo" viewBox="-5 -5 100 100">
       <path
         d="M94.654,24.701c-0.071-0.548-0.209-1.255-0.109-1.672c0.069-0.296,0.108-0.603,0.029-0.762
@@ -66,5 +66,10 @@
   <h2 class="saltlux">Saltlux</h2>
   <h3>Welcome to Angular</h3>
 
-  <app-home></app-home>
+  <!-- <app-home></app-home> -->
+</div>
+
+<router-outlet></router-outlet>
+<div class="bottom">
+  <img src="assets/person.png" alt="person" width="35" />
 </div>

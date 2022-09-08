@@ -11,4 +11,13 @@ export class CommonService {
   public binhPhuong(n: number): number {
     return n * n;
   }
+  public getCounter(): number {
+    return this.couter;
+  }
+  public setCouter(n: number): void {
+    this.couter = n;
+  }
+  public submitData(data: string): void {
+    console.log('Gửi data lên server, Data: ', data);
+  }
 }

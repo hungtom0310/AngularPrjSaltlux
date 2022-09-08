@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   public name = 'Hưng';
+  public myColor = 'red';
   public age = 40;
   public traiCay = ['Táo', 'Nho', 'Cam', 'Quýt', 'Ổi'];
   public traiCay2 = [

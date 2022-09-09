@@ -9,9 +9,12 @@ import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HighlightDirective } from './Directives/highlight.directive';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import { TabGroupComponent } from './tabs/tab-group/tab-group.component';
+import { TabPanelComponent } from './tabs/tab-panel/tab-panel.component';
+import { BsTabGroupComponent } from './tabs/bs-tab-group/bs-tab-group.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutComponent, PageNotFoundComponent, HighlightDirective, TemplateDrivenFormComponent],
+  declarations: [AppComponent, HomeComponent, AboutComponent, PageNotFoundComponent, HighlightDirective, TemplateDrivenFormComponent, TabGroupComponent, TabPanelComponent, BsTabGroupComponent],
   imports: [FormsModule, BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

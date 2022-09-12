@@ -16,13 +16,14 @@
     <br /><br />
     <input [value]="name" title="Đây là {{ name }}" />
 
+    <!-- ngIf -->
     <h2 class="border border-ngIf">ngIf</h2>
     <h2 *ngIf="age > 40">Bạn đã già rồi !!</h2>
     <h2 *ngIf="age <= 40">Bạn vẫn còn trẻ @@</h2>
 
     <button class="buttonRS" (click)="resetName()">Reset tên</button>
 
-    <!-- ngIf -->
+    <!-- template -->
     <div *ngIf="age <= 40; then tre; else gia"></div>
     <ng-template #gia><h2>Bạn đã già rồi !!</h2></ng-template>
     <ng-template #tre><h2>Bạn vẫn còn trẻ @@</h2></ng-template>
